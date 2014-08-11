@@ -3,11 +3,11 @@
  
 # Uninstall Xamarin Studio
  
-rm –rf "/Applications/Xamarin Studio.app"
-rm –rf ~/Library/Caches/XamarinStudio-*
-rm –rf ~/Library/Logs/XamarinStudio-*
-rm –rf ~/Library/Preferences/XamarinStudio-*
-rm –rf ~/Library/XamarinStudio-*
+rm -rf "/Applications/Xamarin Studio.app"
+rm -rf ~/Library/Caches/XamarinStudio-*
+rm -rf ~/Library/Logs/XamarinStudio-*
+rm -rf ~/Library/Preferences/XamarinStudio-*
+rm -rf ~/Library/XamarinStudio-*
  
  
 # Uninstall Mono MDK
@@ -34,7 +34,7 @@ sudo pkgutil --forget com.xamarin.xamarin-ios-build-host.pkg
  
 ## To Uninstall the Xamarn Build Host
  
-rm –rf "/Applications/Xamarin.iOS Build Host.app"
+rm -rf "/Applications/Xamarin.iOS Build Host.app"
  
 ## To unload and remove the Xamarin Build Host launchd job
  
