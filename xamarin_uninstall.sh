@@ -28,11 +28,12 @@ rm -rf ~/Library/MonoAndroid
 # Uninstall Xamarin.iOS
  
 rm -rf ~/Library/MonoTouch
+rm -rf ~/Library/Frameworks/Xamarin.iOS.framework
 sudo rm -rf /Developer/MonoTouch
 sudo pkgutil --forget com.xamarin.monotouch.pkg
 sudo pkgutil --forget com.xamarin.xamarin-ios-build-host.pkg
  
-## To Uninstall the Xamarn Build Host
+## To Uninstall the Xamarin Build Host
  
 rm -rf "/Applications/Xamarin.iOS Build Host.app"
  
@@ -46,3 +47,9 @@ sudo rm -f /Library/LaunchAgents/com.xamarin.mtvs.buildserver.plist
  
 sudo rm -rf /Library/Frameworks/Xamarin.Mac.framework
 rm -rf ~/Library/Xamarin.Mac
+
+# Uninstall Xamarin Installer
+
+rm -rf ~/Library/Caches/XamarinInstaller/
+rm -rf ~/Library/Logs/XamarinInstall/
+rm -rf ~/Library/Preferences/Xamarin/
